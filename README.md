@@ -74,7 +74,7 @@ You can build RIE into a base image. Download the RIE from GitHub to your local 
 ### Test an image without adding RIE to the image
 
 You install the runtime interface emulator to your local machine. When you run the image function, you set the entry point to be the emulator. 
-*To test an image without adding RIE to the image *
+*To test an image without adding RIE to the image*
 
 1. From your project directory, run the following command to download the RIE from GitHub and install it on your local machine. 
 
@@ -118,7 +118,7 @@ The rest of these Environment Variables can be set to match AWS Lambda's environ
 You can use the emulator to test if your function code is compatible with the Lambda environment, executes successfully 
 and provides the expected output. For example, you can mock test events from different event sources. You can also use 
 it to test extensions and agents built into the container image against the Lambda Extensions API. This component 
-does *not *emulate* *the orchestration behavior of AWS Lambda. For example, Lambda has a network and security 
+does *not emulate* the orchestration behavior of AWS Lambda. For example, Lambda has a network and security 
 configurations that will not be emulated by this component. 
 
 
@@ -126,7 +126,7 @@ configurations that will not be emulated by this component.
 * You can also use it to test extensions and agents built into the container image against the Lambda Extensions API.
 * This component does _not_ emulate Lambda’s orchestration, or security and authentication configurations. 
 * The component does _not_ support X-ray and other Lambda integrations locally. 
-* The component supports only Linux x84-64 architectures.
+* The component supports only Linux x86-64 architectures.
 
 ## Security
 
